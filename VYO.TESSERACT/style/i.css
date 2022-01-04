@@ -1,0 +1,135 @@
+.socialmedia{
+    background-image: url("../images/volback.jpg");
+    height: 100%;
+    width: 100%;
+    justify-self: left;
+    
+
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-instagram{
+    background-color: red;
+    color: white;
+
+}  
+
+.fa-youtube{
+    background-color: red;
+    color: white;
+}
+
+.titleline{
+   
+
+    color: white;
+    text-align: center;
+}
+.welcome{
+    background-color: orange;
+    margin: auto;
+}
+.wbanner{
+    background-image: url("../images/backtop.png");
+    height: 100%;
+    width: 100%;
+}
+.images{
+    background-image: url("../images/backtop.png");
+    border: solid 25px orange;
+}
+   
+.volunteer{
+    background-image: url("../images/volback.jpg");
+    margin: auto;
+    
+}
+    
+.vol{
+    margin: 2%;
+    padding: 5%;
+}
+
+.tollfree{
+    background-color: gold;
+   
+
+}
+.map{
+    background-image: url("../images/map-pattern.png");
+    
+    background-color: maroon;
+}
+    
+/* .boxfooter{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: auto;
+} */
+.boxok{
+    margin: auto;
+}
+.boxcontact{
+    align-items: center;
+}
+.mapimage{
+    height: 550px;
+    width: 770px;
+}
+.aboutvyo{
+    display: flex;
+    flex-direction: row;
+}
+.aboutvyo{
+    background-color: lightyellow;
+
+}
+.myabout{
+    display: flex;
+    flex-direction: row;
+
+}
+.projectone{
+    display: flex;
+    flex-direction: row;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
